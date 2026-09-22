@@ -15,7 +15,7 @@ void selectionSort(int arr[], int size)
             }
         }
 
-        // Swap only if a smaller element is found
+     
         if (min_idx != step)
         {
             int temp = arr[step];
@@ -25,7 +25,7 @@ void selectionSort(int arr[], int size)
             swapped = 1;
         }
 
-        // Stop if no swapping happened
+    
         if (swapped == 0)
         {
             break;
